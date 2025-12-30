@@ -1,3 +1,4 @@
+import { Button } from "@/components/animate-ui/primitives/buttons/button";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function PricingPage() {
@@ -87,12 +88,12 @@ export default function PricingPage() {
 								></textarea>
 							</label>
 						</div>
-						<button
+						<Button
 							type="button"
 							className="w-full py-3 font-bold text-black transition-colors bg-green-500 rounded-lg hover:bg-green-600"
 						>
 							Enviar Mensaje
-						</button>
+						</Button>
 					</form>
 				</div>
 			</div>

@@ -3,7 +3,7 @@ import { Bot, MessageSquare, Send, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import Markdown from 'react-markdown';
 
-const model = "gemma3"; // Cambia esto por el nombre exacto del modelo instalado en Ollama si es necesario
+const model = "glm-4.6:cloud"; // Cambia esto por el nombre exacto del modelo instalado en Ollama si es necesario
 const MAX_HISTORY = 12; // últimos turnos que enviamos al modelo
 const SUMMARY_TRIGGER = 24; // cuando excede, generamos resumen
 
